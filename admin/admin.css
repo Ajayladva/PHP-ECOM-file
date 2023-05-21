@@ -1,0 +1,234 @@
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: blue;
+   
+}
+
+.material-symbols-outlined {
+    font-size: 30px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.left-bar{
+    width: 80px;
+    background-color: rgb(34, 4, 64);
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    position:fixed;
+    font-size:0px;
+}
+.logo{
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+.logo-web{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.name-page{
+    padding-left: 1%;
+    padding-right: 55%;
+    text-align: left;
+    font-size: 20px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.tex{
+    font-size: 0px;
+}
+
+.bar{
+    background-color: rgb(93 85 85 / 0%);
+    border: 0px solid blue;
+    color: white;
+    width: 90%;
+    margin: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*   bar end */
+/*   page  */
+.right-bar{
+    text-align: left;
+    width: 94%;
+    padding: 10px;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    position:fixed;
+    overflow-y: scroll;
+    overflow-x:hidden ;
+    background-color: rgba(206, 195, 185, 0.637);
+
+}
+.input-set{
+    padding: 10px;
+    text-align: center;
+    width:50%;
+    height:fit-content;
+    overflow-y: scroll;
+    top:2%;
+    right:20%;
+    left:23%;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 2px white;
+    text-transform: uppercase;
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track .input-set {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb .input-set{
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover.input-set {
+    background: #b30000; 
+  }
+
+.set-btn{
+    text-align: right;
+    text-decoration: none;
+    width:100%;
+    margin: 0px 0px 30px 0px;
+}
+.input-box{
+    width: 44%;
+    padding: 8px 0px 8px 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: rgb(227, 214, 214);
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.input-btn{
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    background: rgb(199, 199, 202);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.input-btns{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    background: rgb(54, 54, 238);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    border: 2px solid white;
+}
+.top-bar{
+    width: 99%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;  
+    align-items: center;
+    display: flex;
+}
+.name{
+    width: 80%;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.name_b{
+    width: 5%;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    background-color: rgba(255, 192, 203, 0);
+    border: 1px solid white;
+}
+.name_profile{
+    width: 8%;
+    margin: 0px 2px 0px 2px;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    background-color: rgba(255, 192, 203, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.add-action{
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+    padding: 8px 20px 8px 20px;
+    margin: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(29, 25, 25);
+    border: 1px solid white;
+}
+.pop-massage{
+    top:10px;
+    right:10px;
+    position: absolute;
+    width:350px;
+    padding: 10px 8px 5px 10px;
+    background-color:rgba(243, 10, 10, 0.677);
+}
+#close{
+    text-align: right;
+    cursor: pointer;
+}
+#text1{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color:rgb(17, 1, 1);
+    visibility: visible;
+}
+#text2{
+    font-size: 18px;
+    color:white;
+}
+#text3{
+    width:100%;
+    font-size: 18px;
+    color:white;
+}

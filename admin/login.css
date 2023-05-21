@@ -1,0 +1,23 @@
+body{
+    background-image: url('https://www.greenqueen.com.hk/wp-content/uploads/2021/07/Rental-Fashion-Causes-More-Emissions-Than-Throwing-Clothes-Away.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    width:30%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.151);
+    top:10px;
+    right: 35%;
+    left:35%;
+    bottom: 10px;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+form{
+padding: 20px;
+}
